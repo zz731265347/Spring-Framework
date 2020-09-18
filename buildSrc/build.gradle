@@ -3,6 +3,11 @@ plugins {
 }
 
 repositories {
+
+	//新增以下2个阿里云镜像
+	maven { url 'https://maven.aliyun.com/nexus/content/groups/public/'}
+	maven { url 'https://maven.aliyun.com/nexus/content/repositories/jcenter' }
+
 	mavenCentral()
 	gradlePluginPortal()
 }
